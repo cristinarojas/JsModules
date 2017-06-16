@@ -8,6 +8,7 @@ console.log(sum(1, 3));
 // I can import the entire module.
 import 'exportECMAScript6' as utils;
 
+
 // Using the functions that I imported from the entire module.
 console.log(utils.generateRandom());
 console.log(utils.sum(1, 3));
