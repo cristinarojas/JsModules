@@ -1,12 +1,12 @@
 // Importing the functions that I want to use from module file.
-import { generateRandom, sum } from 'utilityModuleExportECMAScript6';
+import { generateRandom, sum } from 'exportECMAScript6';
 
 // Using the functions that I imported.
 console.log(generateRandom());
 console.log(sum(1, 3));
 
 // I can import the entire module.
-import 'utilityModuleExportECMAScript6' as utils;
+import 'exportECMAScript6' as utils;
 
 // Using the functions that I imported from the entire module.
 console.log(utils.generateRandom());
